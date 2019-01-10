@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="systemB:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf25c11a-db7b-472c-bd4d-ad9707ca6f3a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/systemB/target/" />
+    <ignored path="$PROJECT_DIR$/systemA/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-systemB-api/target/" />
+    <ignored path="$PROJECT_DIR$/mydubbo-api/target/" />
+    <ignored path="$PROJECT_DIR$/mydubbo-web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/dubbodemo$UserServiceTest_test.ic" NAME="UserServiceTest.test Coverage Results" MODIFIED="1545204009235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.wj.service.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemA/src/test/java/com/wj/dubbotest/TestUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemB/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemA/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-803">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemB/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/systemB/src/main/resources/dubbo/dubbo-provider.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemA/src/main/resources/dubbo/dubbo-consumer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/systemB/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/systemB/src/main/java/com/wj/zpc/dobbo/systemb/pojo/User.java" />
+        <option value="$PROJECT_DIR$/systemB/src/main/java/com/wj/zpc/dobbo/systemb/service/UserService.java" />
+        <option value="$PROJECT_DIR$/systemB/src/main/resources/dobbo/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/systemB/src/main/java/com/wj/zpc/dobbo/systemb/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/systemB/src/main/resources/web.xml" />
+        <option value="$PROJECT_DIR$/systemB/src/main/java/com/wj/zpc/dubbo/systemb/service/UserService.java" />
+        <option value="$PROJECT_DIR$/systemB/src/main/java/com/wj/zpc/dubbo/systemb/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/systemB/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/systemB/src/main/java/com/wj/dubbo/systemb/service/UserService.java" />
+        <option value="$PROJECT_DIR$/systemA/src/main/java/com/wj/dubbo/systemb/service/UserService.java" />
+        <option value="$PROJECT_DIR$/systemB/src/main/java/com/wj/dubbo/systema/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/systemA/src/main/java/com/wj/dubbo/systema/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/systemA/src/main/java/com/wj/dubbo/systemb/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/systemA/src/main/java/com/wj/dubbo/systemb/pojo/User.java" />
+        <option value="$PROJECT_DIR$/systemB/src/main/java/com/wj/dubbo/systemb/pojo/User.java" />
+        <option value="$PROJECT_DIR$/systemA/src/main/java/com/wj/dubbo/systemb/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-systemB-api/src/main/java/com/wj/dubbo/systemb/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-systemB-api/pom.xml" />
+        <option value="$PROJECT_DIR$/systemA/pom.xml" />
+        <option value="$PROJECT_DIR$/systemA/src/main/java/com.wj.dubbo/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/systemB/src/main/java/com/wj/dubbo/systemb/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/systemA/src/main/resources/dubbo/dubbo-consumer.xml" />
+        <option value="$PROJECT_DIR$/systemA/src/test/java/com/wj/dubbotest/TestUserService.java" />
+        <option value="$PROJECT_DIR$/systemB/src/main/resources/dubbo/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/resources/dubbo/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/resources/mybatis/mybatis.xml" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/java/com/wj/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/resources/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/systemB/pom.xml" />
+        <option value="$PROJECT_DIR$/mydubbo-web/pom.xml" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/resources/mapper/UserDao.xml" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/java/com/wj/eneity/User.java" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/resources/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/java/com/wj/service/UserService.java" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/test/java/com/wj/userTest.java" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/test/java/com/wj/UserTest.java" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/test/com/wj/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/java/com/wj/Main.java" />
+        <option value="$PROJECT_DIR$/mydubbo-api/src/main/java/com/wj/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mydubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Tools\Maven\my_maven_local_repository" />
+        <option name="mavenHome" value="E:/Tools/Maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\Tools\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="systemA Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="systemA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="systemA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="systemA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="systemA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="systemA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="systemB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="systemB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="systemB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="systemB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="systemB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545221572498" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="E:/Projects/goodsweb" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wj.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Mine\study\dubbodemo\mydubbo-api\src\main\resources" />
+      <recent name="E:\Mine\study\dubbodemo\systemA\src\main\java" />
+      <recent name="E:\Mine\study\dubbodemo\systemB\src\main\webapp\WEB-INF" />
+      <recent name="E:\Mine\study\dubbodemo\systemB\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wj.dubbo.systemb.service.impl" />
+      <recent name="com.wj.dubbo.systemb.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mine\study\dubbodemo\mydubbo-api\src\main\resources" />
+      <recent name="E:\Mine\study\dubbodemo\systemB\src\main" />
+      <recent name="E:\Mine\study\dubbodemo\systemA\src\main" />
+      <recent name="E:\Mine\study\dubbodemo\dubbo-systemB-api\src\main\java" />
+      <recent name="E:\Mine\study\dubbodemo\systemB\src\main\java\com\wj" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestUserService">
+    <configuration name="TestUserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="systemA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wj.dubbotest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wj.dubbotest" />
+      <option name="MAIN_CLASS_NAME" value="com.wj.dubbotest.TestUserService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="systemB" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/systemB_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="systemB:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/systemB_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_dubbodemo_9" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58015" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="systemB:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestUserService" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf25c11a-db7b-472c-bd4d-ad9707ca6f3a" name="Default Changelist" comment="" />
+      <created>1544521896275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544521896275</updated>
+      <workItem from="1544521899902" duration="8225000" />
+      <workItem from="1544579172983" duration="20870000" />
+      <workItem from="1545130722124" duration="3958000" />
+      <workItem from="1545190009890" duration="20040000" />
+      <workItem from="1545215695129" duration="284000" />
+      <workItem from="1545216689914" duration="3433000" />
+      <workItem from="1545272638341" duration="3308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserTest - 2018.12.19 at 15h 06m 31s.xml">
+      <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_test - 2018.12.19 at 15h 19m 07s.xml">
+      <configuration name="UserServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_test - 2018.12.19 at 15h 19m 38s.xml">
+      <configuration name="UserServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_test - 2018.12.19 at 15h 20m 14s.xml">
+      <configuration name="UserServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_test - 2018.12.19 at 15h 20m 34s.xml">
+      <configuration name="UserServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_test - 2018.12.19 at 15h 22m 20s.xml">
+      <configuration name="UserServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_test - 2018.12.19 at 15h 23m 10s.xml">
+      <configuration name="UserServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserService - 2018.12.19 at 19h 22m 50s.xml">
+      <configuration name="TestUserService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserService - 2018.12.19 at 19h 23m 39s.xml">
+      <configuration name="TestUserService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserService - 2018.12.19 at 19h 24m 21s.xml">
+      <configuration name="TestUserService" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60118000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3464448" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48608837" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4140753" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mydubbo-api/src/test/com/wj/service/UserServiceTest.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/systemB/src/main/java/com/wj/zpc/dubbo/systemb/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/java/com/wj/zpc/dubbo/systemb/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/java/com/wj/zpc/dubbo/systemb/pojo/User.java" />
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/java/com/wj/zpc/dubbo/systemb/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/java/com/wj/dubbo/systemb/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/java/com/wj/dubbo/systemb/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/java/com/wj/dubbo/systemb/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-systemB-api/src/main/java/com/wj/dubbo/systemb/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-systemB-api/src/main/java/com/wj/dubbo/systemb/pojo/User.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-systemB-api/src/main/java/com/wj/dubbo/systemb/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-systemB-api/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/java/com/wj/dubbo/systemb/pojo/User.java" />
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/com.wj.dubbo/controller/UserController" />
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/com.wj.dubbo/controller/UserController.class" />
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/com.wj.dubbo/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/java/com.wj.dubbo/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/systemB/src/main/java/com/wj/dubbo/systemb/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" column="5" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemB/src/main/java/com/wj/dubbo/systemb/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemB/src/main/java/com/wj/dubbo/systemb/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/resources/mybatis/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-web/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/java/com/wj/eneity/User.java" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/resources/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/resources/application.xml" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/resources/spring-mybatis.xml" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/resources/jdbc.properties" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/resources/mapper/UserDao.xml" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/test/java/com/wj/UserTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="274" selection-start-line="274" selection-end-line="274" />
+          <folding>
+            <element signature="e#2889#2890#0" expanded="true" />
+            <element signature="e#2941#2942#0" expanded="true" />
+            <element signature="e#6888#7023#0" expanded="true" />
+            <element signature="e#7022#7023#0" expanded="true" />
+            <element signature="e#7421#7585#0" expanded="true" />
+            <element signature="e#7584#7585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/test/com/wj/service/UserServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/java/com/wj/Main.java" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/java/com/wj/dao/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/java/com/wj/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/systemB/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/resources/dubbo-provider.xml" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/mydubbo-api/src/main/java/com/wj/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/systemB/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemA/src/test/java/com/wj/dubbotest/TestUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemB/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemA/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemA/src/main/resources/dubbo/dubbo-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemB/src/main/resources/dubbo/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>systemA:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>systemA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41287458" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
