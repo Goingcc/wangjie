@@ -1,0 +1,32 @@
+﻿
+需要修改简历的一下内容，并在面试前强化准备：
+  工具类：
+        1、熟练使用eclipse\myeclipse\IDEA\VS Code等前后端编程工具
+	2、理解Git原理，能熟练使用git命令实现代码版本管理
+	3、sourceTree：能熟练使用git界面工具
+	4、热爱技术分享，喜欢在CSDN博客记录自己的学习心得。账号：https://blog.csdn.net/weixin_39033443
+  掌握技能：
+        1、理解spring+springmvc+mybatis原理，能熟练使用
+	2、了解springboot，正在研究原理
+        3、RPC:Dubbo+zookeeper，理解远程服务调用原理，能熟练使用dbbo+zk构建RPC服务
+	4、分布式消息中间件：ActiveMQ和RocketMQ （理解消息中间件jms规范），能熟练使用RocketMQ、ActiveMQ
+	5、了解 Html/css/js，能实现简单页面编写，能利用JQuery、AJax等技术实现前后端数据交互
+	6、源码：正在研究spring源码，JDK源码：String、HashMap等（优先）
+	7、理解常用的设计模式
+	8、了解多线程和并发编程，正在看《java多线程核心思想》《java并发编程实战》
+	9、了解JVM特性和底层原理
+	10、理解java的IO工具类，能熟练使用
+        11、掌握基本的Linix命令，能在相关Linix环境下实现基本功能
+        12、了解NoSQL原理，能熟练使用MongoDB数据库
+  
+  看的书籍：
+         1、 《Java从入门到精通》 内容不精炼
+	 2、 《数据结构（java语言描述）》 偏向教学
+	 3、 《深入分析JavaWeb》  没看懂
+	 4、 《ssm企业级框架实战》 实战类书籍
+	 5、 《一步一步学springboot2》 实战类书籍
+	 6、 《Thing in Java》 翻译版本，讲的深入细致，逻辑有些难懂
+	 7、 《码农翻身》 用讲故事形式讲解java前后端技术，在于理解流程
+	 8、 《Java多线程编程核心技术》 正在看
+	 9、 《并发编程实战》 未开始看
+	 10、《JVM原理分析》  未开始看
