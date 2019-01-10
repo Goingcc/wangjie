@@ -8,5 +8,21 @@
     <artifactId>my_rocketmq_demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <!--rocketmq-->
+        <dependency>
+            <groupId>com.alibaba.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>3.5.9</version>
+        </dependency>
+        <!--json-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.54</version>
+        </dependency>
+
+
+    </dependencies>
 
 </project>
