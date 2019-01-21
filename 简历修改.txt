@@ -6,6 +6,7 @@
 	3、sourceTree：能熟练使用git界面工具
 	4、热爱技术分享，喜欢在CSDN博客记录自己的学习心得。账号：https://blog.csdn.net/weixin_39033443
         我的github账号：https://github.com/Goingcc/wangjie.git
+	5、熟悉常见的linux命令，能通过xshell进行相关的操作。
   掌握技能：
         1、理解spring+springmvc+mybatis原理，能熟练使用
 	2、了解springboot，正在研究原理
