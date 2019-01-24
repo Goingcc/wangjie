@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wj.demo.dao.UserDao">
+    <!--mapper中加入MyBatis二级缓存-->
+    <cache type="com.wj.demo.redis.RedisCache"/>
+    <resultMap id="BaseResultMap" type="com.wj.demo.model.User">
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="user_name" property="userName" jdbcType="VARCHAR" />
+        <result column="sex" property="sex" jdbcType="VARCHAR"/>
+        <result column="birthday" property="birthday" jdbcType="VARCHAR" />
+        <result column="deleted" property="deleted" jdbcType="INTEGER" />
+    </resultMap>
+
+    <!-- 查询所有用户信息-->
+    <select id="getAllUsers"  resultMap="BaseResultMap">
+        SELECT * FROM wj_user
+        WHERE deleted = 0 ;
+    </select>
+
+    <!-- 查询单条记录 -->
+    <select id="getUserById" parameterType="int" resultMap="BaseResultMap">
+        SELECT * FROM wj_user
+        WHERE id = #{id} AND deleted = 0;
+    </select>
+
+
+</mapper>
